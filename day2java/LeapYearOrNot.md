@@ -4,7 +4,7 @@
 ```java
 
 import java.util.Scanner;
-class Average {
+class Factorial {
     public static void main(String[] args){
        
         Scanner nc = new Scanner(System.in);
