@@ -1,4 +1,5 @@
-![image](https://github.com/Mogana004/code.Java/assets/92911280/26a00cf9-4677-4c19-b3ca-b46c013cc9ed)
+![image](https://github.com/Mogana004/code.Java/assets/92911280/1f5b7ff0-eba9-4e53-8110-b8faf8d15116)
+
 ## code
 ```java
 import java.util.Scanner;
@@ -11,8 +12,6 @@ class HelloWorld {
         int age = sc.nextInt(); 
         if (age<=15){
             System.out.println("Give Chocolate!");
-        }else{
-            System.out.println("Bye");
         }
         System.out.print("Bye");
     }
