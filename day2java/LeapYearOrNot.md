@@ -11,7 +11,7 @@ class Factorial {
         
         System.out.print("Enter the year:");
         int year = nc.nextInt();
-        if ((year % 4 == 0) && (year %100  != 0)){
+       if  ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
              System.out.println("Its a leap year");
         }else{
              System.out.print("Not a Leap Year");
