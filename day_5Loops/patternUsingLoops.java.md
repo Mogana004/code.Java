@@ -1,5 +1,5 @@
 ## Question 
-printing pattern with n number of Rows and M number of Columns 
+printing pattern with M number of Rows and N number of Columns 
 ## code 
 
 ```java
