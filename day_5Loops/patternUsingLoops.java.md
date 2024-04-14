@@ -1,3 +1,6 @@
+## Question 
+printing pattern with n number of Rows and M number of Columns 
+## code 
 
 ```java
 import java.util.Scanner;
