@@ -1,4 +1,6 @@
-
+## question 
+Get an integer N  , and write a program to read N inputs and print them .
+## Code
 ```java
 import java.util.Scanner;
 
