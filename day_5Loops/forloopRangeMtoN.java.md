@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 class printIntegers{
     public static void main(String[] args){
@@ -9,3 +10,4 @@ class printIntegers{
         }
     }
 }
+```
