@@ -1,3 +1,4 @@
+```java
 class Main {
     public static void main(String[] args) {
         String original = "Hello";
@@ -24,3 +25,4 @@ class Main {
         System.out.println(reversedString);
     }
 }
+```
