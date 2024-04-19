@@ -1,7 +1,7 @@
-'''java
+```java
+
 
 import java.util.Scanner;
-
 class Main {
     static String divisibleBySeven(int a)
     {
