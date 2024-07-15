@@ -1,1 +1,0 @@
-Cricket World Cup Qualifier
