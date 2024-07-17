@@ -1,4 +1,4 @@
-## Bull or Bear
+## Bull or Bear 
 Chef is on his way to become the new big bull of the stock market but is a bit weak at calculating whether he made a profit or a loss on his deal.
 
 Given that Chef bought the stock at value 
@@ -37,3 +37,5 @@ class Codechef
 	}
 }
 }```
+
+https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/BULLBEAR
