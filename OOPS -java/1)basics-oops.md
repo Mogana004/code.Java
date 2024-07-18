@@ -1,10 +1,13 @@
 ```java
+
 //super class - product 
 class product {
-    // instance attributes 
+    // instance attributes
+
     String name ;
     int price ;
     float rating ;
+
     // consturctor method to access the values 
     product (String name , int price , float rating ){
         this.name = name ;
