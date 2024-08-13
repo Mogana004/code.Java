@@ -1,4 +1,4 @@
-# Abstraction
+# Abstraction using abstract classes 
 ```java
 abstract class Vehicle{ 
     int speed = 20 ;
