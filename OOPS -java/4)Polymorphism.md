@@ -67,6 +67,6 @@ class Base {
 }
 ```
 
-### In the above code, we have used the superclass reference variable mammal to refer to its subclass object. We also invoked eat() method using the reference variable mammal. The method invocations with objects are resolved (i.e., deciding which method should be called by the statement mammal.eat()) during the runtime.
+1) In the above code, we have used the superclass reference variable mammal to refer to its subclass object. We also invoked eat() method using the reference variable mammal. The method invocations with objects are resolved (i.e., deciding which method should be called by the statement mammal.eat()) during the runtime.
 
-### During the runtime, the mammal refers to the Dog object and the method invocation is resolved and the eat() method of the Dog class has been invoked as it overrides the eat() method of the Mammal class.
+2) During the runtime, the mammal refers to the Dog object and the method invocation is resolved and the eat() method of the Dog class has been invoked as it overrides the eat() method of the Mammal class.
