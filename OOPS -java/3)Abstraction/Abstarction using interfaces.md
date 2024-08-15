@@ -33,3 +33,70 @@ class Main {
     }
 }
 ```
+
+### inheritace amoung intefaces
+```java
+```java
+interface CricketPlayer {
+    void run();
+    void field();
+}
+
+interface Wicketkeeper extends CricketPlayer {  // interface extending another interface
+    void wicketkeeping();
+}
+
+class Person implements Wicketkeeper {
+    public void field() {
+        System.out.println("Fielding");
+    };
+
+    public void wicketkeeping() {
+        System.out.println("Wicketkeeping");
+    }
+
+    public void run() {
+        System.out.println("Running");
+    };
+}
+
+class Base {
+    public static void main(String[] args) {
+        Person person = new Person();
+
+        person.field();
+        person.wicketkeeping();
+        person.run();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/1910620a-6018-4253-8cee-4f19aeda20d1)
+
+### 4. Multiple Inheritance
+In multiple inheritance, a single class/interface can inherit multiple interfaces.
+```java
+interface InswingBowler {
+    void inswing();
+}
+
+interface OutswingBowler {
+    void outswing();
+}
+
+class BowlerA implements InswingBowler, OutswingBowler {  // a class implementing multiple interfaces
+    public void inswing() {
+        System.out.println("Inswing bowling");
+    }
+
+    public void outswing() {
+        System.out.println("Outswing bowling");
+    }
+}
+
+class Base {
+    public static void main(String[] args) {
+        BowlerA bowler = new BowlerA();
+        bowler.inswing();
+        bowler.outswing();
+    }
+}```
